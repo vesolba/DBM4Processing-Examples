@@ -128,8 +128,22 @@ void draw() {
         counter2++;
       }
     }
-  } 
+  }
   catch (Exception e ) {
     e.printStackTrace();
+  }
+  finally  
+  {
+    try
+    {
+      if (stmt != null)
+      {
+        stmt.close();
+      }
+      closeDBbyServer();
+    }
+    catch (Exception sqlExcept)
+    {
+    }
   }
 }
