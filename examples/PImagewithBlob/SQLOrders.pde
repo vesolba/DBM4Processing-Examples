@@ -13,6 +13,11 @@ void createBlobsTable() { //<>// //<>//
 
   try {
     stmt.execute(order0);
+  }  
+  catch (Exception e ) {
+    // There is not table to delete
+  }
+  try {
     stmt.execute(order1);
     stmt.execute(order2);
   } 
