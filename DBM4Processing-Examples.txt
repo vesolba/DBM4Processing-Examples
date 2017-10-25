@@ -1,0 +1,14 @@
+name = DBM4Processing-Examples
+category = Data
+authors=[Venerando Solís Barrado](https://github.com/vesolba) for [DBM4Processing-Examples](https://github.com/vesolba/DBM4Processing-Examples)
+url=https://github.com/vesolba/DBM4Processing-Examples
+sentence=A set of sketches demonstrating the use of Derby databases with Processing.
+paragraph=The package has been tested in Windows 10.
+version=1
+prettyVersion=1.0
+lastUpdated=0
+minRevision=0
+maxRevision=0
+
+
+
