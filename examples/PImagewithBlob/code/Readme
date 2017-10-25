@@ -1,1 +1,4 @@
-Test
+This subdirectory contains Derby libraries whose failure 
+causes errors of type "Derby libraries not found" to appear. 
+If these .jar files do not match those of your Derby installation, 
+you should replace them.
